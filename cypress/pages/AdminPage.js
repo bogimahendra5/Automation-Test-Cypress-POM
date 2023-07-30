@@ -42,12 +42,12 @@ class AdminPage {
 
   // Method on Add User Section
   selectRoleStatus(role, status) {
-    role = (role) => this.role(role);
-    status = (status) => this.role(status);
+    role() = () => this.role(role);
+    status() = () => this.role(status);
     this.selectRole().click();
-    this.role.click();
+    this.role().click();
     this.selectRole().click();
-    this.status.click();
+    this.status().click();
   }
 
   EmployeName(name) {
