@@ -2,6 +2,7 @@ cypress/results/*
 cypress/reports/*
 cypress/screenshots/*
 cypress/videos/*
+cypress/reports/*
 
 node_modules/
 !.vscode/extensions.json

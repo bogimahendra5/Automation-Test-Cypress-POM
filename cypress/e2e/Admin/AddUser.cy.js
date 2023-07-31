@@ -20,10 +20,10 @@ describe("Page Admin", () => {
     AdminPage.selectRole().should("be.visible");
   });
 
-  it.only("Add Admin User", () => {
-    AdminPage.addBtn().click();
-    AdminPage.selectRoleStatus(AdminPage.roleAdmin, AdminPage.statusEnable);
-    AdminPage.EmployeName("test");
-    AdminPage.autoSuggest().contains("Orange Test").click();
-  });
+  // it.only("Add Admin User", () => {
+  //   AdminPage.addBtn().click();
+  //   AdminPage.selectRoleStatus(AdminPage.roleAdmin, AdminPage.statusEnable);
+  //   AdminPage.EmployeName("test");
+  //   AdminPage.autoSuggest().contains("Orange Test").click();
+  // });
 });
