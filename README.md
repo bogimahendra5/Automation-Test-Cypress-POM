@@ -1,5 +1,5 @@
 
-# Automation Testing with Cypress - POM
+# Automation Testing with Cypress
 
 Mini project end to end automation testing on web Orange HRM https://opensource-demo.orangehrmlive.com", with implementation Page Object Model as design pattern also using the Xpath for the selector.
 
